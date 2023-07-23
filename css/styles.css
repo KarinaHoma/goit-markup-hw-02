@@ -1,0 +1,35 @@
+:root {
+    --main-background-color: #F4F4FD;
+    ;
+    --main-text-color: #2E2F42;
+    --main-focus-color: #4D5AE5;
+    --main-hover-color: #4D5AE5;
+    --main-focus-text-color: #FFFFFF;
+    --main-hover-text-color: #FFFFFF;
+}
+
+.button.contact:hover,
+.button.contact:focus {
+    background-color: var(--main-focus-color);
+    color: var(--main-hover-text-color);
+    cursor: pointer;
+}
+
+.background-style2 {
+    border-bottom: 1px solid #E7E9FC
+}
+
+.background-style1 {
+    background: #2E2F42;
+}
+
+.logo {
+    color: #4D5AE5;
+}
+
+.logo-size {
+    width: 115px;
+    height: 24px;
+    top: 24px;
+    left: 156px;
+}
