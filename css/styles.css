@@ -1,117 +1,121 @@
 :root {
-    --main-background-color: #F4F4FD;
-    --main-text-color: #2E2F42;
-    --main-focus-color: #4D5AE5;
+    --brand-background-primary:#E7E9FC;
+    --brand-background-secondary: #2E2F42;
+    --brand-button-primary:#4D5AE5;
+    --brand-button-secondary:#E7E9FC;
+    --brand-text-secondary:#434455;
     --main-hover-color: #4D5AE5;
-    --main-focus-text-color: #FFFFFF;
     --main-hover-text-color: #FFFFFF;
+    --main-font-size: 16px;
+    --main-line-height: 1.5em;
 }
-.button:hover,
-.button:focus {
-        background-color: var(--main-focus-color);
-        color: var(--main-hover-text-color);
+.logo.menu.contact:hover,
+.logo.menu.contact:focus {
+        background-color:var(--main-hover-color);
+        color:var(--main-hover-text-color);
+}
+.button-order {
         cursor: pointer;
-}
-
+        color:#FFFFFF;
+        background-color: var(--brand-button-primary);
+}        
 .background-style1 {
-        background: #E7E9FC;
-        border-bottom: 1px;
+        background-color: var(--brand-background-primary);
 } 
 
 .background-style2 {
-        background: #2E2F42;
-        width: 1440px; 
-        height: 600px;
-        top: 72px;
+        background-color: var(--brand-background-secondary);
 }
-.background-style3 {
-        background: #2E2F42;
+.background-bottom {
+        background-color: var(--brand-background-secondary);
 }
 .logo {
         font-size: 18px;
         font-weight: 800;
-        line-height: 21px;
+        line-height: 1.167em;
         letter-spacing: 0.03em;
         text-align: left;
 }
-.logo:visited{
+.logo:visited {
         color:#2E2F42;
 }
-.menu{
-        font-size: 16px;
+.menu {
+        font-size: var(--main-font-size);
         font-weight: 500;
-        line-height: 24px;
+        line-height: var(--main-line-height);
         letter-spacing: 0.02em;
         text-align: left;
-        color:inherit;
 }
 .contact{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
+        font-size: var(--main-font-size);
+        line-height: var(--main-line-height);
         letter-spacing: 0.02em;
         text-align: left;
-        color:#434455
+        color:var(--brand-text-secondary);
 }
 a {
         text-decoration: none;
         font-style:normal;
 }
-.main-item{
+.main-item {
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1.07em;
         letter-spacing: 0.02em;
         text-align: center;
-        color:#FFFFFF
+        color:#FFFFFF;
 }
 ul {
         list-style: none;
 }
-.button-studio {
-        background:#4D5AE5;
+.button-order {
+        background:var(--brand-button-primary);
         color:#FFFFFF;
-        font-size: 16px;
+        font-size: var(--main-font-size);
         font-weight: 500;
-        line-height: 24px;
+        line-height: var(--main-line-height);
         letter-spacing: 0.04em;
         text-align: left;
-
-
 }
-.footer-text{
-     color:#F4F4FD;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
+.footer-text {
+        color:#F4F4FD;
+        font-size: var(--main-font-size);
+        line-height: var(--main-line-height);
         letter-spacing: 0.02em;
         text-align: left;
 }
-.main-title{
+.main-title {
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.2em;
         letter-spacing: 0.02em;
         text-align: left;
 }
-p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
+.main-description {
+        color: var(--brand-text-secondary);
+        font-size: var(--main-font-size);
+        line-height: var(--main-line-height);
         letter-spacing: 0.02em;
         text-align: left;
 }
-.main-header{
+.main-header {
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.111em;
         letter-spacing: 0.02em;
         text-align: center;
 }
-.main-dscription{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
+.main-description1 {
+        font-size: var(--main-font-size);
+        line-height: var(--main-line-height);
         letter-spacing: 0.02em;
         text-align: center;
+}
+.button-portfolio{
+        color: var(--brand-button-primary);
+        background-color:#F4F4FD;
+        border:1px solid var(--brand-button-secondary);
+        font-size: var(--main-font-size);
+        font-weight: 500;
+        line-height: var(--main-line-height);
 }
