@@ -3,6 +3,7 @@
     --brand-background-secondary: #2E2F42;
     --brand-button-primary:#4D5AE5;
     --brand-button-secondary:#E7E9FC;
+    --brand-text-primary:color: #2E2F42;
     --brand-text-secondary:#434455;
     --main-hover-color: #4D5AE5;
     --main-hover-text-color: #FFFFFF;
@@ -23,7 +24,12 @@ a:focus{
         cursor: pointer;
         color:#FFFFFF;
         background-color: var(--brand-button-primary);
-}        
+}
+.button-order:hover,
+.button-order:focus {
+        background-color:  #404BBF;
+        color:white;
+}      
 .background-style1 {
         background-color: var(--brand-background-primary);
 } 
@@ -45,6 +51,7 @@ a:focus{
         color:#2E2F42;
 }
 .menu {
+        color:var(--brand-text-primary);
         font-size: var(--main-font-size);
         font-weight: 500;
         line-height: var(--main-line-height);
@@ -90,6 +97,7 @@ ul {
         text-align: left;
 }
 .main-title {
+        color:var(--brand-text-primary);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2em;
@@ -104,6 +112,7 @@ ul {
         text-align: left;
 }
 .main-header {
+        color: var(--brand-text-primary);
         font-size: 36px;
         font-weight: 700;
         line-height: 1.111em;
@@ -111,6 +120,7 @@ ul {
         text-align: center;
 }
 .main-description1 {
+        color: var(--brand-text-secondary);
         font-size: var(--main-font-size);
         line-height: var(--main-line-height);
         letter-spacing: 0.02em;
