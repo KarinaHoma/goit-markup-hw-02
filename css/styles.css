@@ -9,29 +9,36 @@
     --main-hover-text-color: #FFFFFF;
     --main-font-size: 16px;
     --main-line-height: 1.5em;
-    --color-logo: #4d5ae5;
-    --color-span: #2e2f42;
+    --main-logo-color: #4d5ae5;
+    --span-color: #2e2f42;
+    --hover-focus-color: #404bbf
 }
-.link {
-        text-decoration: none;
-}
-.logo {
+.logo-link {
         font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--color-logo);
+        color: var(--main-logo-color);
+        text-decoration: none;
 }
-
 .studio-span {
-        color: var(--color-span);
+        color: var(--span-color);
 }
 .menu.link {
-        color: var(--color-link);
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        font-weight: 500;
+        text-decoration: none;
 }
-
+.list li:first-child a:hover {
+        color: var(--hover-focus-color);
+}
+.list li:first-child a:focus {
+        color: var(--hover-focus-color);
+}
 .menu link:hover,
 .menu link:focus {
         color: #404bbf;
