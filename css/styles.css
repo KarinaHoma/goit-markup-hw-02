@@ -130,27 +130,30 @@
         text-align: left;
 }
 .main-title {
-        color:var(--brand-text-primary);
-        font-size: 20px;
         font-weight: 500;
-        line-height: 1.2em;
+        font-size: 20px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: left;
+        color: #2e2f42;
 }
 .main-description {
-        color: var(--brand-text-secondary);
-        font-size: var(--main-font-size);
-        line-height: var(--main-line-height);
+        font-size: 16px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: left;
+        color: #434455;
 }
 .main-header {
-        color: var(--brand-text-primary);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.111em;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
+        color: #2e2f42;
+}
+.list {
+        list-style: none;
+}
+.menu {
+        list-style: none;
 }
 .main-description1 {
         color: var(--brand-text-secondary);
