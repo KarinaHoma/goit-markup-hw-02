@@ -10,9 +10,9 @@
     --main-font-size: 16px;
     --main-line-height: 1.5em;
 }
-a:hover,
-a:focus{
-        color:#4D5AE5;
+.background-style1 .contact.link:hover,
+.background-style1 .contact.link:focus {
+        color: #404bbf;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -30,27 +30,39 @@ a:focus{
         background-color:  #404BBF;
         color:white;
 }      
-.background-style1 {
-        background-color: var(--brand-background-primary);
-} 
-
 .background-style2 {
         background-color: var(--brand-background-secondary);
 }
 .background-bottom {
         background-color: var(--brand-background-secondary);
 }
-.logo {
-        font-size: 18px;
+.background-style1 .logo {
+        font-family: "Raleway", sans-serif;
         font-weight: 800;
-        line-height: 1.167em;
+        font-size: 18px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
-        text-align: left;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        text-decoration: none;
+}
+.background-style1 .contact {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.background-style1 address.address-class {
+        font-style: normal;
+}
+
+.background-style1 .span-class {
+        color: #2e2f42;
 }
 .logo:visited {
         color:#2E2F42;
 }
-.menu {
+.menu link {
         color:var(--brand-text-primary);
         font-size: var(--main-font-size);
         font-weight: 500;
@@ -58,17 +70,17 @@ a:focus{
         letter-spacing: 0.02em;
         text-align: left;
 }
-.contact{
+.contact link{
         font-size: var(--main-font-size);
         line-height: var(--main-line-height);
         letter-spacing: 0.02em;
         text-align: left;
         color:var(--brand-text-secondary);
 }
-a {
+.link {
         text-decoration: none;
-        font-style:normal;
 }
+
 .main-item {
         font-size: 56px;
         font-weight: 700;
