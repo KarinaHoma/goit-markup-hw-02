@@ -32,8 +32,8 @@
         color: var(--color-link);
 }
 
-.menu.link:hover,
-.menu.link:focus {
+.menu link:hover,
+.menu link:focus {
         color: #404bbf;
 }
 .background-style-primary .contact.link:hover,
