@@ -9,6 +9,20 @@
     --main-hover-text-color: #FFFFFF;
     --main-font-size: 16px;
     --main-line-height: 1.5em;
+    --color-logo: #4d5ae5;
+    --color-link: #2e2f42;
+}
+.link {
+        text-decoration: none;
+}
+
+.menu.link {
+        color: var(--color-link);
+}
+
+.menu.link:hover,
+.menu.link:focus {
+        color: #404bbf;
 }
 .background-style1 .contact.link:hover,
 .background-style1 .contact.link:focus {
@@ -55,7 +69,6 @@
 .background-style1 address.address-class {
         font-style: normal;
 }
-
 .background-style1 .span-class {
         color: #2e2f42;
 }
