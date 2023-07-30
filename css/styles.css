@@ -36,8 +36,8 @@
 .menu.link:focus {
         color: #404bbf;
 }
-.background-style1 .contact.link:hover,
-.background-style1 .contact.link:focus {
+.background-style-primary .contact.link:hover,
+.background-style-primary .contact.link:focus {
         color: #404bbf;
 }
 .button-portfolio:hover,
@@ -50,6 +50,7 @@
         cursor: pointer;
         color:#FFFFFF;
         background-color: var(--brand-button-primary);
+        font-family: "Roboto", sans-serif;
 }
 .button-order:hover,
 .button-order:focus {
@@ -62,7 +63,7 @@
 .background-bottom {
         background-color: var(--brand-background-secondary);
 }
-.background-style1 .logo {
+.background-style-primary .logo {
         font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -72,16 +73,16 @@
         color: #4d5ae5;
         text-decoration: none;
 }
-.background-style1 .contact {
+.background-style-primary .contact {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.background-style1 address.address-class {
+.background-style-primary address.address-class {
         font-style: normal;
 }
-.background-style1 .span-class {
+.background-style-primary .span-class {
         color: #2e2f42;
 }
 .logo:visited {
