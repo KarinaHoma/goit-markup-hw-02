@@ -1,6 +1,7 @@
 :root {
     --brand-background-primary:#E7E9FC;
     --brand-background-secondary: #2E2F42;
+    --brand-background-third:#F4F4FD;
     --brand-button-primary:#4D5AE5;
     --brand-button-secondary:#E7E9FC;
     --brand-text-primary:color: #2E2F42;
@@ -10,26 +11,31 @@
     --main-font-size: 16px;
     --main-line-height: 1.5em;
     --main-logo-color: #4d5ae5;
-    --span-color: #2e2f42;
-    --hover-focus-color: #404bbf
+    --hover-focus-color: #404bbf;
     --header-color: #2e2f42;
     --text-color: #434455;
 }
-.list {
-        list-style: none;
+a {
+        text-decoration: none;
 }
-.logo-link {
+
+.logo {
         font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--main-logo-color);
         text-decoration: none;
 }
-.studio-span {
-        color: var(--span-color);
+.logo-span{
+        color: var(--main-logo-color);
+}
+.logo-bottom-span{
+        color:#FFFFFF
+}
+.section-team{
+        background-color: var(--brand-background-third);
 }
 .menu.link {
         line-height: 1.5;
@@ -44,12 +50,12 @@
 .list li:first-child a:focus {
         color: var(--hover-focus-color);
 }
-.menu link:hover,
-.menu link:focus {
+.menu :hover,
+.menu :focus {
         color: #404bbf;
 }
-.background-style-primary .contact.link:hover,
-.background-style-primary .contact.link:focus {
+.navigation-panel .contact.link:hover,
+.navigation-panel .contact.link:focus {
         color: #404bbf;
 }
 .button-portfolio:hover,
@@ -69,38 +75,28 @@
         background-color:  #404BBF;
         color:white;
 }      
-.background-style-secondary {
+.panel-bottom {
         background-color: var(--brand-background-secondary);
 }
-.background-bottom {
-        background-color: var(--brand-background-secondary);
-}
-.background-style-primary .logo {
+
+.navigation-panel .logo {
         font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
         text-decoration: none;
 }
-.background-style-primary .contact {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-.background-style-primary address.address-class {
+
+.navigation-panel .address {
         font-style: normal;
-}
-.background-style-primary .span-class {
         color: #2e2f42;
 }
 .logo:visited {
         color:#2E2F42;
 }
-.menu link {
+.menu {
         color:var(--brand-text-primary);
         font-size: var(--main-font-size);
         font-weight: 500;
@@ -108,7 +104,8 @@
         letter-spacing: 0.02em;
         text-align: left;
 }
-.contact link{
+
+.contact {
         font-size: var(--main-font-size);
         line-height: var(--main-line-height);
         letter-spacing: 0.02em;
@@ -116,7 +113,7 @@
         color:var(--brand-text-secondary);
 }
 
-.main-item {
+.header-primary {
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07em;
@@ -141,44 +138,40 @@
         letter-spacing: 0.02em;
         text-align: left;
 }
-.hdr-class {
+.main-title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--header-color);
 }
-.txt-class {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--text-color);
-}
-.main-header {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+.header-secondary {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
 .list {
         list-style: none;
 }
-.menu {
-        list-style: none;
-}
-.main-description1 {
+.text-body {
         color: var(--brand-text-secondary);
         font-size: var(--main-font-size);
         line-height: var(--main-line-height);
         letter-spacing: 0.02em;
         text-align: center;
+        color: var(--text-color);
 }
-.button-portfolio{
+.button-portfolio {
         color: var(--brand-button-primary);
         background-color:#F4F4FD;
-        border:1px solid var(--brand-button-secondary);
+        border:1px solid;
         font-size: var(--main-font-size);
         font-weight: 500;
         line-height: var(--main-line-height);
+}
+.main-body ul {
+        list-style:none;
+        text-decoration: none;
 }
