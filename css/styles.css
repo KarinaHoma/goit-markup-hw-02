@@ -166,7 +166,7 @@ a {
 .button-portfolio {
         color: var(--brand-button-primary);
         background-color:#F4F4FD;
-        border:1px solid;
+        border:1px solid var(--brand-button-secondary);
         font-size: var(--main-font-size);
         font-weight: 500;
         line-height: var(--main-line-height);
