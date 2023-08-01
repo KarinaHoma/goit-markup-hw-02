@@ -9,7 +9,7 @@
     --main-hover-color: #4D5AE5;
     --main-hover-text-color: #FFFFFF;
     --main-font-size: 16px;
-    --main-line-height: 1.5em;
+    --main-line-height: 1.5;
     --main-logo-color: #4d5ae5;
     --hover-focus-color: #404bbf;
     --header-color: #2e2f42;
@@ -101,22 +101,20 @@ a {
         font-size: var(--main-font-size);
         font-weight: 500;
         line-height: var(--main-line-height);
-        letter-spacing: 0.02em;
-        text-align: left;
+        letter-spacing: 0.02;
 }
 
 .contact {
         font-size: var(--main-font-size);
         line-height: var(--main-line-height);
-        letter-spacing: 0.02em;
-        text-align: left;
+        letter-spacing: 0.02;
         color:var(--brand-text-secondary);
 }
 
 .header-primary {
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.07em;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color:#FFFFFF;
@@ -129,7 +127,6 @@ a {
         font-weight: 500;
         line-height: var(--main-line-height);
         letter-spacing: 0.04em;
-        text-align: left;
 }
 .footer-text {
         color:#F4F4FD;
@@ -160,7 +157,6 @@ a {
         font-size: var(--main-font-size);
         line-height: var(--main-line-height);
         letter-spacing: 0.02em;
-        text-align: center;
         color: var(--text-color);
 }
 .button-portfolio {
@@ -170,8 +166,16 @@ a {
         font-size: var(--main-font-size);
         font-weight: 500;
         line-height: var(--main-line-height);
+        font-family:inherit;
+        letter-spacing: 4%;
 }
-.main-body ul {
+ul {
         list-style:none;
         text-decoration: none;
+}
+.main-description {
+        color:var(--text-color);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
