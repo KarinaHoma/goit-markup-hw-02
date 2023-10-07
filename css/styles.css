@@ -75,7 +75,7 @@ First main section*/
 First main section - button*/
 .button-order {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -126,7 +126,23 @@ Fourth main section*/
 }
 
 /*Portfolio
-First main section*/
+Main section*/
+.button-portfolio {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--Accent);
+  background-color: var(--Light);
+  color: var(--Primary-Brand);
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  cursor: pointer;
+  color: var(--White-background);
+  background-color: var(--Pressed-state);
+}
 .menu :hover,
 .menu :focus {
   color: var(--Pressed-state);
@@ -134,22 +150,6 @@ First main section*/
 .navigation-panel .contact.link:hover,
 .navigation-panel .contact.link:focus {
   color: var(--Pressed-state);
-}
-.button-portfolio:hover,
-.button-portfolio:focus {
-  cursor: pointer;
-  color: var(--White-background);
-  background-color: var(--Primary-Brand);
-}
-.button-portfolio {
-  font-size: var(--main-font-size);
-  font-weight: 500;
-  line-height: var(--main-line-height);
-  font-family: inherit;
-  letter-spacing: 4%;
-  border: 1px solid var(--Accent);
-  background-color: var(--Light);
-  color: var(--Primary-Brand);
 }
 
 /*Portfolio
@@ -161,9 +161,21 @@ Second main section*/
   letter-spacing: 0.02em;
   color: var(--Dark);
 }
-
+.feature {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--Hero-background);
+}
+.feature-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text);
+}
 /*Footer*/
-.section footer {
+.section-footer {
   background-color: var(--Dark);
 }
 .body-footer {
