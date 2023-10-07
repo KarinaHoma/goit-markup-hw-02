@@ -23,9 +23,9 @@
 }
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--Primary-Brand);
@@ -33,18 +33,17 @@
 
 /*First main section*/
 
-.logo-bottom {
-  color: #ffffff;
-}
+/*First main section*/
 .section-team {
-  background-color: var(--brand-background-third);
+  background-color: var(--Light);
 }
+
 .menu.link {
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--Dark);
   font-weight: 500;
+  letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--Dark);
 }
 .list a:hover {
   color: var(--Pressed-state);
@@ -62,20 +61,20 @@
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: #ffffff;
-  background-color: #4d5ae5;
   cursor: pointer;
+  color: var(--White-background);
+  background-color: var(--Primary-Brand);
 }
 .button-order {
   cursor: pointer;
-  color: #ffffff;
-  background-color: var(--Primary-Brand);
   font-family: "Roboto", sans-serif;
+  color: var(--White-background);
+  background-color: var(--Primary-Brand);
 }
 .button-order:hover,
 .button-order:focus {
   background-color: var(--Pressed-state);
-  color: white;
+  color: var(--White-background);
 }
 .panel-bottom {
   background-color: var(--Dark);
@@ -83,9 +82,9 @@
 
 .navigation-panel .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -99,55 +98,55 @@
   color: var(--Dark);
 }
 .menu {
-  color: var(--Dark);
   font-size: var(--main-font-size);
-  font-weight: 500;
   line-height: var(--main-line-height);
-  letter-spacing: 0.02;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--Dark);
 }
 
 .contact {
   font-size: var(--main-font-size);
   line-height: var(--main-line-height);
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--Text);
 }
 
 .header-primary {
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
+  font-weight: 700;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: var(--White-background);
 }
 
 .button-order {
-  background: var(--Primary-Brand);
-  color: #ffffff;
   font-size: var(--main-font-size);
-  font-weight: 500;
   line-height: var(--main-line-height);
+  font-weight: 500;
   letter-spacing: 0.04em;
+  background: var(--Primary-Brand);
+  color: var(--White-background);
 }
 .footer-text {
-  color: #f4f4fd;
   font-size: var(--main-font-size);
   line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   text-align: left;
+  color: var(--Light);
 }
 .main-title {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--Dark);
 }
 .header-secondary {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
+  font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--Dark);
 }
@@ -155,28 +154,28 @@
   list-style: none;
 }
 .text-body {
-  color: var(--Text);
   font-size: var(--main-font-size);
   line-height: var(--main-line-height);
   letter-spacing: 0.02em;
+  color: var(--Text);
 }
 .button-portfolio {
-  color: var(--Primary-Brand);
-  background-color: #f4f4fd;
-  border: 1px solid var(--Accent);
   font-size: var(--main-font-size);
   font-weight: 500;
   line-height: var(--main-line-height);
   font-family: inherit;
   letter-spacing: 4%;
+  border: 1px solid var(--Accent);
+  background-color: var(--Light);
+  color: var(--Primary-Brand);
 }
 ul {
   list-style: none;
   text-decoration: none;
 }
 .main-description {
-  color: var(--Text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--Text);
 }
