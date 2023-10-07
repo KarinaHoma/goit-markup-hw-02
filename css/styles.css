@@ -30,27 +30,100 @@
   text-transform: uppercase;
   color: var(--Primary-Brand);
 }
-
-/*First main section*/
-
-/*First main section*/
-.section-team {
-  background-color: var(--Light);
+.list {
+  list-style: none;
 }
-
+address {
+  font-style: normal;
+  color: var(--Dark);
+}
+.address-list {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--Text);
+}
+.address-list a:hover,
+.address-list a:focus {
+  color: var(--Pressed-state);
+}
 .menu.link {
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--Dark);
 }
-.list a:hover {
-  color: var(--Pressed-state);
+
+/*Index
+First main section*/
+.header1 {
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--White-background);
+  background-color: var(--Hero-background);
 }
-.list a:focus {
-  color: var(--Pressed-state);
+
+/*Index
+First main section - button*/
+.button-order {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--White-background);
+  background-color: var(--Primary-Brand);
 }
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--Pressed-state);
+  color: var(--White-background);
+}
+
+/*Index
+Second main section*/
+.header3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--Dark);
+}
+.body {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text);
+}
+
+/*Index
+Third main section*/
+.header2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--Dark);
+}
+
+/*Index
+Fourth main section*/
+.fourth-section {
+  background-color: var(--Light);
+}
+.team-card {
+  background-color: var(--White-background);
+}
+
+/*Portfolio
+First main section*/
 .menu :hover,
 .menu :focus {
   color: var(--Pressed-state);
@@ -65,100 +138,6 @@
   color: var(--White-background);
   background-color: var(--Primary-Brand);
 }
-.button-order {
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  color: var(--White-background);
-  background-color: var(--Primary-Brand);
-}
-.button-order:hover,
-.button-order:focus {
-  background-color: var(--Pressed-state);
-  color: var(--White-background);
-}
-.panel-bottom {
-  background-color: var(--Dark);
-}
-
-.navigation-panel .logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.17;
-  font-weight: 800;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.navigation-panel .address {
-  font-style: normal;
-  color: var(--Dark);
-}
-.logo:visited {
-  color: var(--Dark);
-}
-.menu {
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--Dark);
-}
-
-.contact {
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
-  letter-spacing: 0.02em;
-  color: var(--Text);
-}
-
-.header-primary {
-  font-size: 56px;
-  line-height: 1.07;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--White-background);
-}
-
-.button-order {
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  background: var(--Primary-Brand);
-  color: var(--White-background);
-}
-.footer-text {
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: var(--Light);
-}
-.main-title {
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--Dark);
-}
-.header-secondary {
-  font-size: 36px;
-  line-height: 1.1;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--Dark);
-}
-.list {
-  list-style: none;
-}
-.text-body {
-  font-size: var(--main-font-size);
-  line-height: var(--main-line-height);
-  letter-spacing: 0.02em;
-  color: var(--Text);
-}
 .button-portfolio {
   font-size: var(--main-font-size);
   font-weight: 500;
@@ -169,13 +148,25 @@
   background-color: var(--Light);
   color: var(--Primary-Brand);
 }
-ul {
-  list-style: none;
-  text-decoration: none;
+
+/*Portfolio
+Second main section*/
+.menu {
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--Dark);
 }
-.main-description {
+
+/*Footer*/
+.section footer {
+  background-color: var(--Dark);
+}
+.body-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--Text);
+  text-align: left;
+  color: var(--Light);
 }
