@@ -28,14 +28,14 @@
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--Dark);
+  color: var(--Primary-Brand);
 }
 .list {
   list-style: none;
 }
 address {
   font-style: normal;
-  color: var(--Primary-Brand);
+  color: var(--Dark);
 }
 .address-list {
   line-height: 1.5;
@@ -43,8 +43,8 @@ address {
   text-decoration: none;
   color: var(--Text);
 }
-.address-list a:hover,
-.address-list a:focus {
+.address-list :hover,
+.address-list :focus {
   color: var(--Pressed-state);
 }
 .menu.link {
@@ -175,6 +175,18 @@ Second main section*/
   color: var(--Text);
 }
 /*Footer*/
+.studio-footer {
+  color: var(--Light);
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--Primary-Brand);
+}
 .section-footer {
   background-color: var(--Dark);
 }
