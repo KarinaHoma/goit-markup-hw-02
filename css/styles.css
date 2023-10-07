@@ -28,14 +28,14 @@
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--Primary-Brand);
+  color: var(--Dark);
 }
 .list {
   list-style: none;
 }
 address {
   font-style: normal;
-  color: var(--Dark);
+  color: var(--Primary-Brand);
 }
 .address-list {
   line-height: 1.5;
