@@ -143,10 +143,10 @@ Main section*/
 }
 .menu:hover,
 .menu:focus,
-.navigation-panel .contact.link:hover,
-.navigation-panel .contact.link:focus,
-.address-list :hover,
-.address-list :focus {
+.navigation-panel .contact.link,
+.navigation-panel .contact.link,
+.address-list:hover,
+.address-list:focus {
   color: #404bbf;
 }
 
