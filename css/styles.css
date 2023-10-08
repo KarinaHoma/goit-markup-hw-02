@@ -43,10 +43,6 @@ address {
   text-decoration: none;
   color: var(--Text);
 }
-.address-list :hover,
-.address-list :focus {
-  color: var(--Pressed-state);
-}
 .menu.link {
   font-size: 16px;
   line-height: 1.5;
@@ -62,7 +58,7 @@ span {
 /*Index
 First main section*/
 .main {
-  color: var(--Hero-background);
+  color: #2e2f42;
 }
 .header-first {
   font-size: 56px;
@@ -148,7 +144,9 @@ Main section*/
 .menu:hover,
 .menu:focus,
 .navigation-panel .contact.link:hover,
-.navigation-panel .contact.link:focus {
+.navigation-panel .contact.link:focus,
+.address-list :hover,
+.address-list :focus {
   color: #404bbf;
 }
 
